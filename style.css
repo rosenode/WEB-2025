@@ -1,0 +1,63 @@
+html {
+background-color: rgb(26, 3, 3);
+}
+#grad {
+    background-image: linear-gradient(to bottom right, rgb(126, 25, 25), rgb(27, 2, 4));
+  }
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.button {
+    background-color: #6e0a0a;
+    border: #ddd;
+    border-style: dashed;
+    border-width: 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color:#b61919
+  }
+  a {
+    background-color: #6e0a0a;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  a:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+#thefirst {
+    color:whitesmoke;
+    font-family: Sevillana;
+    border:rgb(82, 9, 9);
+    border-style: groove;
+    border-width: 20;
+    text-align: center;
+    font-style: italic;
+    font-size: 60;
+}
+
+#second {
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30;
+}
+
+#third {
+    color:whitesmoke;
+    font-size: 25;
+}
